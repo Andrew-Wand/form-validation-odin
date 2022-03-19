@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* Form */
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 4rem;
+}
+
+.form-input, .form-label {
+    display: block;
+    margin: 10px;
+}
+
+.form-button {
+    margin: 10px;
+}
